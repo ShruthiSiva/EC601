@@ -1,9 +1,13 @@
 import numpy as np 
 import cv2
+import sys
 
+img = cv2.imread(sys.argv[1])
+if img is None:
+        print('Could not read in the provided image')
+        quit()
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-img= cv2.imread('OneFace.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 faces= face_cascade.detectMultiScale(gray, 1.3, 5)
