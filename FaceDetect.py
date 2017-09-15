@@ -20,7 +20,7 @@ def input_parse():
         return output
     else:
         print('Color codes not entered correctly')
-
+        quit()
 
 img = cv2.imread(sys.argv[1])
 if img is None:
