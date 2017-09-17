@@ -1,7 +1,7 @@
 # EC601 Homework 1
 
 ## Objective:
-Utilize Github in conjunction with Trello and Slack to effectively complete Homework Assignment 1.
+Utilize Github in conjunction with Trello and Slack to effectively complete Homework Assignment 1, in which we explore the various features of OpenCV.
 
 ## Members:
 * Shruthi Sivasubramanian (ShruthiSiva) - Repository Creator
@@ -27,3 +27,7 @@ python FaceDetectVideo.py <*Face_Detect_Color*> <*Eye_Detect_Color*>
 The italicized fields are outlined below:
 * Face_Detect_Color, Eye_Dectect_Color: Specify the Blue, Green, Red (BGR) Code you wish to use for the drawn identification boxes. the BGR Code should be written as three integers between 0 and 255 separted by commas with no space (e.g.-255, 255, 255 would be the BGR code for a white box.).
 
+## face_makeover.py Command Line Format:
+python face_makeover.py
+
+No additional arguments are needed.  Upon detection of a face, an image of Nicolas Cage will be overlayed onto that face.
