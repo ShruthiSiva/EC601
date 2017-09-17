@@ -8,4 +8,9 @@ Utilize Github in conjunction with Trello and Slack to effectively complete Home
 * Kevin Chow (CaptainGinyu)
 * Michael Graziano (GrazianoMJ)
 
-## Test for Mike!
+## filters.py Command Line Format:
+python filters.py
+
+Select the desired filter.
+ This piece of code adds the corresponding filter to a real time video after face detection.
+ 
