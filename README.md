@@ -3,6 +3,8 @@
 ## Objective:
 Utilize Github in conjunction with Trello and Slack to effectively complete Homework Assignment 1, in which we explore the various features of OpenCV.
 
+The code in this repo requires the Python version of OpenCV, which can be installed with pip install opencv-python
+
 ## Members:
 * Shruthi Sivasubramanian (ShruthiSiva) - Repository Creator
 * Kevin Chow (CaptainGinyu)
@@ -31,3 +33,8 @@ The italicized fields are outlined below:
 python face_makeover.py
 
 No additional arguments are needed.  Upon detection of a face, an image of Nicolas Cage will be overlayed onto that face.
+
+## awesome_face.py Command Line Format:
+python awesome_face.py
+
+No additional arguments are needed.  Upon detection of a face, that face will be outlined in a cool-looking color.
