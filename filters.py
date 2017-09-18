@@ -73,7 +73,7 @@ def put_dog_filter(dog,fc,x,y,w,h):
     
 ch = 0
 print("Select Filter:1.) Hat 2.) Moustache 3.) Hat and Moustache 4.) Dog Filter")
-ch = int(qinput())
+ch = int(input())
     
     
 while True:
